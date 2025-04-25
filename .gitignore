@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# Airflow
+airflow.cfg
+unittests.cfg
+logs/
+airflow.db
+*.sqlite
+
+# dbt
+dbt_modules/
+target/
+dbt_packages/
+profiles.yml
+
+# CSV files (if you don't want to upload big datasets)
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
